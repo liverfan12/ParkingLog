@@ -1,6 +1,9 @@
+package com.parkinglog.model;
+
 import java.io.Serializable;
 
 public class CarModel implements Serializable {
+    private  static final long serialVersionUID = 1L;
     private String make;
     private String numberPlate;
 
@@ -21,5 +24,4 @@ public class CarModel implements Serializable {
     public String toString() {
         return "Car Make: " + make + ", Number Plate: " + numberPlate;
     }
-
 }
